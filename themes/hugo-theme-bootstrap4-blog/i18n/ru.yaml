@@ -21,3 +21,6 @@
 
 - id: paginatorNext
   translation: "Следующая страница"
+  
+- id: tags
+  translation: "Tags"

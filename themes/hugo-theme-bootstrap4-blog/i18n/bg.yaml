@@ -36,3 +36,6 @@
 
 - id: links
   translation: "Линкове"
+  
+- id: tags
+  translation: "Tags"

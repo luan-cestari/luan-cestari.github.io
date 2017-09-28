@@ -20,6 +20,16 @@
     </ol>
   </section>
   {{ end }}
+  {{ with .Site.Taxonomies.tags }}
+  <section class="sidebar-module">
+    <h4>{{ i18n "tags" }}</h4>
+    <ol class="list-unstyled">
+      {{ range $name, $taxonomy := . }}
+      <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a><span class="badge badge-pill badge-default"> {{ len $taxonomy }}</span></li>
+      {{ end }}
+    </ol>
+  </section>
+  {{ end }}
 </aside><!-- /.blog-sidebar -->
 
 {{- /* vim: set ts=2 sw=2 et: */}}

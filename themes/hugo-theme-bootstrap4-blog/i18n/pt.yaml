@@ -30,3 +30,6 @@
 
 - id: cookieDismiss
   translation: "Ok!"
+  
+- id: tags
+  translation: "Tags"
