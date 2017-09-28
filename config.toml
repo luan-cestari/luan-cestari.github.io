@@ -10,6 +10,7 @@ paginate = 5
  copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
 googleAnalytics = "UA-123-45"
 disqusShortname = "XYW"
+publishDir = "docs"
 
 [taxonomies]
   category = "categories"
