@@ -16,8 +16,8 @@ mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Checking out gh-pages branch into public"
-git worktree add -B public public upstream/public
+echo "Checking out master branch into public"
+git worktree add -B public master upstream/master
 
 echo "Removing existing files"
 rm -rf public/*
