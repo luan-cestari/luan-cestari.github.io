@@ -1,13 +1,11 @@
-# Hugo variables
-#
-baseurl = "https://example.org/"
+baseurl = "https://luan-cestari.github.io/"
 languageCode = "en-us"
-title = "Hugo Bootstrap v4 Blog"
+title = "DevJounal"
 theme = "hugo-theme-bootstrap4-blog"
 # number of posts to show on home/category/tag pages (Default: 10)
 paginate = 5
-# optionally override the site's footer with custom copyright text
- copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+copyright = "Except where otherwise noted, content on this site is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/)."
+
 googleAnalytics = "UA-123-45"
 disqusShortname = "XYW"
 
@@ -19,30 +17,15 @@ disqusShortname = "XYW"
   post = "/:year/:month/:title/"
   page = "/:slug/"
 
-[[menu.sidebar]]
-  name = "Link 1"
-  url = "https://example.com"
-
-[[menu.sidebar]]
-  name = "Link 2"
-  url = "https://example.org"
-
-# custom navbar menu entry.   See the custom_navbar parameter below for
-# details.
-
-#[[menu.navbar]]
-#  name = "Link 1"
-#  url = "https://example.org"
-
 
 # Theme variables
 #
 [params]
   # Site author
-  author = "Your Name"
+  author = "Luan Cestari"
 
   # Description/subtitle for homepage (can be Markdown)
-  description = "A simple Hugo theme based on the Bootstrap v4 blog example."
+  description = "Welcome to my new web site"
 
   # Format dates with Go's time formatting
   date_format = "2006-01-02"
