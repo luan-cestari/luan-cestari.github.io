@@ -15,7 +15,7 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "Checking out master branch into public"
-git worktree add -B public master upstream/master
+git worktree add -B master public upstream/master
 
 echo "Removing existing files"
 rm -rf public/*
@@ -23,5 +23,5 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-echo "Updating gh-pages branch"
-cd public && git add --all && git commit -m "Publishing to public (publish_to_master.sh)"
+echo "Updating master branch"
+cd public && git add --all && git commit -m "Publishing to master (publish_to_master.sh)"
