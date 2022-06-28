@@ -1,1 +1,0 @@
-# Luan Cestari blog source code
